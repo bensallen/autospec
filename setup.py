@@ -16,6 +16,7 @@ setup(name="autospec",
       package_data = {
             '': ['*.pl', '*.dic'],
       },
+      scripts = [ "autospec/autospec.py" ],
       classifiers=[
             'Intended Audience :: Developers',
             'Topic :: Software Development :: Build Tools',
